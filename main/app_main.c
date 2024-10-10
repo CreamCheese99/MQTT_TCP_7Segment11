@@ -106,7 +106,7 @@ static void mqtt_event_handler(void *handler_args, esp_event_base_t base, int32_
         printf("DATA=%.*s\r\n", event->data_len, event->data);
 
         // 13. add code to get number from mqtt topic
-        if(strstr(event->topic,"/topic/7seg") != NULL)
+        if(strstr(event->topic,"KMITL/SIET/65030099/topic/7seg") != NULL)
         {
             number  = (event->data[0]-0x30)*10 + (event->data[1]-0x30);
         }
