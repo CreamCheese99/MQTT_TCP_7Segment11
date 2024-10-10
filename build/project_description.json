@@ -1,7 +1,7 @@
 {
     "version":            "1.1",
     "project_name":       "MQTT_TCP_7Segment",
-    "project_version":    "1",
+    "project_version":    "356d400-dirty",
     "project_path":       "D:/Esp32_specailTopic/MQTT_TCP_7Segment",
     "idf_path":           "D:/Esp32_specailTopic/v5.2.2/esp-idf",
     "build_dir":          "D:/Esp32_specailTopic/MQTT_TCP_7Segment/build",
